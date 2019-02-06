@@ -1,27 +1,28 @@
-# TourOfHeroes
+# Tutorial
+author & rights: http://www.angular.io (from 04.02.2019)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
+To have the Tutorial I completed in some steps in my github for investigations & tests.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<ul>
+<li>Angular CLI: 7.3.0</li>
+<li>Node: 11.9.0</li>
+<li>OS: linux x64</li>
+<li>Angular: 7.2.3<br />
+... animations, common, compiler, compiler-cli, core, forms<br />
+... language-service, platform-browser, platform-browser-dynamic<br />
+... router</li>
+</ul>
+@angular-devkit/architect - 0.13.0<br />
+@angular-devkit/build-angular - 0.13.0<br />
+@angular-devkit/build-optimizer - 0.13.0<br />
+@angular-devkit/build-webpack - 0.13.0<br />
+@angular-devkit/core - 7.3.0<br />
+@angular-devkit/schematics - 7.3.0<br />
+@angular/cli - 7.3.0<br />
+@ngtools/webpack - 7.3.0<br />
+@schematics/angular - 7.3.0<br />
+@schematics/update - 0.13.0<br />
+rxjs - 6.3.3<br />
+typescript - 3.2.4<br />
+webpack - 4.29.0
+    
