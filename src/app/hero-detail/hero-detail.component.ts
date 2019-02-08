@@ -15,16 +15,6 @@ export class HeroDetailComponent implements OnInit {
 
   hero: Hero;
 
-  constructor(
-    private route: ActivatedRoute,
-    private heroService: HeroService,
-    private location: Location
-  ) { }
-
-  ngOnInit() {
-    this.getHero();
-  }
-
   getHero(): void {
     // The route.snapshot is a static image of the route information shortly after the component was created.
     // The paramMap is a dictionary of route parameter values extracted from the URL. The 'id'-key returns the id of the hero to fetch.
@@ -36,6 +26,22 @@ export class HeroDetailComponent implements OnInit {
 
   goBack(): void {
     this.location.back();
+  }
+
+  /** persists hero name changes using the hero service updateHero() method and then navigates back to the previous view */
+  save(): void {
+    this.heroService.updateHero(this.hero)
+      .subscribe(() => this.goBack());
+  }
+
+  constructor(
+    private route: ActivatedRoute,
+    private heroService: HeroService,
+    private location: Location
+  ) { }
+
+  ngOnInit() {
+    this.getHero();
   }
 
 }
